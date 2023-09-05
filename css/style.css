@@ -104,19 +104,21 @@ background-color:black;
 .images{
     width: 250px;
     height: 250px;
-    margin-left:-5px ;
+    margin-left:-35px ;
     padding:20px 60px 20px 60px;
+    object-fit: cover;
+    object-position: top;
 }
 .image-1{
     width: 250px;
     height: 250px;
-    margin:15px 0 0 20px ;
+    margin:15px 0 0 -10px ;
     padding:20px 60px 20px 60px;
 }
 .image-text{
     font-size: 15px;
 width: 250px;
-margin:10px 0 0 50px;
+margin:10px 0 0 20px;
 
 }
   .more{
@@ -140,8 +142,8 @@ background-size: cover;
 display: none;}
 .logo{
     display: block;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
 border: 1px solid gray;
 border-radius: 60px;
 padding-right: 3px;
